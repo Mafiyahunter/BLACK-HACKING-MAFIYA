@@ -1290,7 +1290,7 @@ def xerx1():
 		tl = str(len(user))
 		print(f"[+] TOTAL IDZ  : "+tl+" ")
 		print(f"[+] CODE CHOOSED : "+kode)
-		print(f'[+] METHOD CHOOSED : M{mafiyafire}')
+		print(f'[+] METHOD CHOOSED : M{xerxfire}')
 		print(47*"-");print('    USE FLIGHT (\033[1;91mAIRPLANE\033[1;97m) MODE BEFORE USE');print(47*"-")
 		for guru in user:
 			uid = kode+guru
@@ -1361,7 +1361,7 @@ def xerx2():
 		tl = str(len(user))
 		print(f"[+] TOTAL IDZ  : "+tl+" ")
 		print(f"[+] CODE CHOOSED : "+kode)
-		print(f'[+] METHOD CHOOSED : M{mafiyafire}')
+		print(f'[+] METHOD CHOOSED : M{xerxfire}')
 		print(47*"-");print('    USE FLIGHT (\033[1;91mAIRPLANE\033[1;97m) MODE BEFORE USE');print(47*"-")
 		for guru in user:
 			uid = kode+guru
@@ -1427,7 +1427,7 @@ def xerx3():
 		tl = str(len(user))
 		print(f"[+] TOTAL IDZ  : "+tl+" ")
 		print(f"[+] CODE CHOOSED : "+kode)
-		print(f'[+] METHOD CHOOSED : M{mafiyafire}')
+		print(f'[+] METHOD CHOOSED : M{xerxfire}')
 		print(47*"-");print('    USE FLIGHT (\033[1;91mAIRPLANE\033[1;97m) MODE BEFORE USE');print(47*"-")
 		for guru in user:
 			uid = kode+guru
@@ -1498,7 +1498,7 @@ def xerx4():
 		tl = str(len(user))
 		print(f"[+] TOTAL IDZ  : "+tl+" ")
 		print(f"[+] CODE CHOOSED : "+kode)
-		print(f'[+] METHOD CHOOSED : M{mafiyafire}')
+		print(f'[+] METHOD CHOOSED : M{xerxfire}')
 		print(47*"-");print('    USE FLIGHT (\033[1;91mAIRPLANE\033[1;97m) MODE BEFORE USE');print(47*"-")
 		for guru in user:
 			uid = kode+guru
@@ -1575,7 +1575,7 @@ def xerx5():
 		tl = str(len(user))
 		print(f"[+] CODE CHOOSED : "+code)
 		print(f"[+] TOTAL IDZ : "+tl+" ")
-		print(f'[+] METHOD CHOOSED : M{mafiyafire}')
+		print(f'[+] METHOD CHOOSED : M{xerxfire}')
 		print(47*"-");print('    USE FLIGHT (\033[1;91mAIRPLANE\033[1;97m) MODE BEFORE USE');print(47*"-")
 		for love in user:
 			pwx = [love[1:]]
